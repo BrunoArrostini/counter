@@ -1,0 +1,214 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+.banner-area{
+    width: 100%;
+    height: 100%;
+    background-image: url(/assets/img/pexels-jakub-novacek-924824.jpg);
+    background-size: cover;
+    
+}
+
+
+.navbar{
+   display: flex;
+   justify-content: space-between;
+   padding-top: 35px;
+   padding-left: 40px;
+   padding-right: 60px;
+   
+   
+
+}
+ 
+
+.counter-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    min-height: 100vh;
+    
+}
+
+
+
+
+span, .output{
+    color: yellow;
+    font-size: 30px;
+}
+
+.title{
+    color: white;
+    font-family: 'Marvel', sans-serif;
+    font-size: 35px;
+    text-shadow: 2px 2px blue;
+}
+
+.title:hover{
+   margin-left: 100px;
+   transition: 2s;
+   color: yellow;
+   transition: 0.5s;
+}
+
+.bi-star{
+    color: yellow;
+    font-size: 30px;
+
+}
+
+.bi-star:hover{
+    color: yellow;
+    font-size: 35px;
+    transform: rotate(180deg);
+    transition: 0.5s;
+}
+
+.bi-star-fill{
+    display: none;
+    color: yellow;
+    font-size: 30px;
+}
+
+.bi-patch-minus,.bi-patch-plus{
+    
+    margin-bottom: 30px;
+    margin-right: 50px;
+    font-size: 70px;
+    color:rgb(53, 177, 225);
+}
+
+.bi-patch-minus:hover,.bi-patch-plus:hover{
+   
+    font-size: 85px;
+    color:rgb(157, 227, 255);
+
+}
+
+.bi-patch-minus-fill,.bi-patch-plus-fill{
+    margin-top: 30px;
+    margin-right: 50px;
+    font-size:90px;
+    color:rgb(229, 238, 132);
+}
+
+.bi-patch-minus-fill:hover,.bi-patch-plus-fill:hover{
+   
+    font-size: 100px;
+    color:rgb(234, 255, 0);
+    transition-duration: 0.3s;
+}
+ 
+.caption-container{
+    display: flex;
+    justify-content: center;
+    font-family: 'Marvel', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+
+.caption{
+    color:white; 
+    letter-spacing:  2px; 
+    font-size:18px; 
+    text-shadow: 
+                 0 -7px 10px rgb(53, 177, 225),
+                 0 -12px 12px rgb(157, 227, 255),
+                 0 -15px 19px rgb(229, 238, 132);
+    text-align: center;             
+}
+
+.caption:hover{
+    font-size:20px;            
+}
+
+.refresh{
+    font-size: 32px;
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Marvel', sans-serif;
+    font-weight: 700;
+}
+
+.refresh:hover{
+    font-size: 34px;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 5px;
+    color: white;
+    font-family: 'Marvel', sans-serif;
+}
+
+/* Media query*/
+@media screen and (max-width:415px) {
+  .title{
+    font-size: 25px;
+    
+  }
+  .title:hover{
+    margin-left: 40px;
+    transition: 2s;
+    color: yellow;
+    transition: 0.5s;
+ }
+  
+  .bi-patch-minus,.bi-patch-plus{
+    font-size: 65px;
+    margin-right: 20px;
+  }
+  
+  .bi-patch-minus:hover,.bi-patch-plus:hover{ 
+    font-size: 75px;
+  }
+
+  .bi-patch-minus-fill,.bi-patch-plus-fill{
+    margin-top: 40px;
+    margin-right: 20px;
+    font-size:80px;
+    color:rgb(229, 238, 132);
+}
+
+.bi-patch-minus-fill:hover,.bi-patch-plus-fill:hover{
+   
+    font-size: 90px;
+    color:rgb(234, 255, 0);
+    transition-duration: 0.3s;
+}
+ 
+.caption-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.caption{
+    font-size: 16px;
+    text-align: center;
+    margin: 3px;
+  
+}
+.caption:hover{
+    font-size: 17px;
+}
+.refresh{
+    margin-top: 30px;
+    
+}
+
+}
