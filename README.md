@@ -1,6 +1,6 @@
  # Cosmic Counter 💥
  
-## Overview 
+## Overview 📖
 **Cosmic Counter** is a basic app using Javascript. Its main function is to increase or decrease the output. 
 
 Talking about style, I decide to use an '80s flavour for the app that recalls to "Space Invader", an old famous game set in space.
@@ -17,4 +17,8 @@ I decided to put a little detail in order to surprise the user, when you reach 5
 **Just try!**
 
 
-![screenshot](counter/assets/img/screenshot.png)
+![screenshot](assets/img/screenshot.png)
+
+
+##Features 📝
+*
