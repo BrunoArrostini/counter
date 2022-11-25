@@ -34,7 +34,7 @@ Clicking on the image below you'll go quicly to the page:
 
 ## License 
 
-Cosmic Counter is licensed by MIT license.
+Cosmic Counter is licensed by <a href= "https://github.com/BrunoArrostini/counter/blob/main/LICENSE.md"> MIT LICENSE.
 
 
 
