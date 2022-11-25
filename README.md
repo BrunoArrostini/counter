@@ -28,8 +28,13 @@ In Css file I added media query to get a responsive design n mobile too.
 
 ## Link 🔗
 
-Below you'll find a link to the page:
+Clicking on the image below you'll go quicly to the page:
 
+<a href="https://cosmico.netlify.app"><img src="assets/img/button.png"></a>
+
+## License 
+
+Cosmic Counter is licensed by MIT license.
 
 
 
