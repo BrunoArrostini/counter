@@ -17,8 +17,19 @@ I decided to put a little detail in order to surprise the user, when you reach 5
 **Just try!**
 
 
-![screenshot](assets/img/screenshot.png)
+![screenshot](assets/img/screenshot.jpg)
 
 
-##Features 📝
-*
+## Features 📝
+
+This counter has been created using HTML, CSS & Javascript.
+
+In Css file I added media query to get a responsive design n mobile too.
+
+## Link 🔗
+
+Below you'll find a link to the page:
+
+
+
+
