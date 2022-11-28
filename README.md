@@ -12,7 +12,7 @@ Counter output is represented by an empty star, buttons are divided in two diffe
 
 A the bottom of the page there's a Refresh button that allows to reset the output to 0.
 
-I decided to put a little detail in order to surprise the user, when you reach 50 value the empty star get fullfilled.
+I decided to put a little detail in order to surprise the user, when you reach 50 value the empty star get fulfilled.
 
 **Just try!**
 
@@ -22,9 +22,9 @@ I decided to put a little detail in order to surprise the user, when you reach 5
 
 ## Features 📝
 
-This counter has been created using HTML, CSS & Javascript.
+This counter has been created using Javascript & Css.
 
-In Css file I added media query to get a responsive design n mobile too.
+In Css file I added media query to get a responsive design on mobile too.
 
 ## Link 🔗
 
